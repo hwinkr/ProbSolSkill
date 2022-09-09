@@ -1,1 +1,1 @@
-# ProbSolSkill
+# 2018 문제해결기법

@@ -23,6 +23,7 @@ void sortStr(char *str, int size)
     {
         for (int j = 0; j < i; j++)
         {
+            // 이 방법도 있지만 각 문자를 입력받을때 그것을 int 형으로 형변환해서 저장해서 비교하는것도 하나의       
             int strToNum1 = str[j] - '0';
             int strToNum2 = str[j + 1] - '0';
             if (strToNum2 < strToNum1)
